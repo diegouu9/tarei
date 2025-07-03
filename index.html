@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <form class="formulario-usuario" action="#" method="post">
+        <h2 class="titulo-formulario">Formulario de Registro</h2>
+
+    <div class="grupo-formulario">
+        <label for="nombre" class="etiqueta-formulario">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" class="entrada-formulario" required>
+    </div>
+
+    <div class="grupo-formulario">
+      <label for="correo" class="etiqueta-formulario">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" class="entrada-formulario" required>
+    </div>
+
+    <div class="grupo-formulario">
+      <label for="fecha" class="etiqueta-formulario">Fecha de nacimiento:</label>
+      <input type="date" id="fecha" name="fecha" class="entrada-formulario">
+    </div>
+
+    <div class="grupo-formulario">
+      <label for="genero" class="etiqueta-formulario">Género:</label>
+      <select name="genero" id="genero" class="seleccion-formulario">
+        <option value="">Seleccione una opción</option>
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+        <option value="otro">Otro</option>
+      </select>
+    </div>
+
+    <div class="grupo-formulario">
+      <label class="etiqueta-formulario">
+        <input type="checkbox" name="terminos" class="checkbox-formulario" required>
+        Acepto los términos y condiciones
+      </label>
+    </div>
+
+    <div class="grupo-formulario">
+      <button type="submit" class="boton-formulario">Enviar</button>
+    </div>
+        </form>
+    </div>
+
+</body>
+</html>
